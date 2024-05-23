@@ -1,0 +1,30 @@
+/* .box{
+    border:solid red 5px;
+    width: 10%;
+    
+}
+
+.parent{
+    border: solid rgb(242, 0, 255) 3px;
+    background: #004cff;
+}
+
+.child{
+    background: aqua;
+    width: 25%;
+} */
+
+/* .box1
+{
+    border: solid lawngreen 3px;
+    background: bisque;
+    height: 100vh;
+    width: 50vw;
+} */
+
+.box2 {
+    border: solid black 2px;
+    font-size: 100PX;
+    text-align: center
+    ;
+}
