@@ -1,0 +1,13 @@
+#img1{
+    float: right;
+    height: 300px;
+}
+#img3{
+    float: right;
+    height: 300px;
+    clear: right;
+}
+#img2{
+    float: left;
+    height: 300px;
+}

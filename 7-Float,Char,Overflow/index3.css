@@ -1,0 +1,8 @@
+.box
+{
+    border: solid black 2px;
+    height: 500px;
+    width: 500px;
+    overflow: scroll;
+
+}
