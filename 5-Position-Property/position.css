@@ -1,0 +1,32 @@
+div
+{
+  border: solid;
+}
+img
+{
+  margin: 10px;  
+}
+.img1
+{
+    position: relative;
+    /* top: 100px; */
+    right: 10;
+}
+.img2
+{
+    position: relative;
+    /* top: 100px; */
+    left: 200px;
+}
+.img3
+{
+    position: relative;
+    /* top: 100px; */
+    left: 400px;
+}
+.img4
+{
+    position: relative;
+   left: 600px;
+   left: 20;
+}
