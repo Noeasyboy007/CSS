@@ -1,0 +1,27 @@
+.box
+{
+    width: 500px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border: 3px solid black;
+
+    text-align: center;
+    font-size: 100px;
+
+    /* transition-property:all;
+    transition-duration: 4s;
+     transition-delay: 1s;
+     transition-timing-function: linear; */
+
+     transition: all 5s 1s linear;
+
+
+
+
+}
+
+.box:hover
+{
+    width: 1682px;
+    background-color: rgb(89, 255, 0);
+}
