@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.conteinar{
+    padding: 5PX;
+    margin: 5PX;
+    width:1520px;
+    height:685px ;
+    background-color: rgb(214, 197, 126);
+    border: 8px solid rgb(172, 54, 54);
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+
+}
+.box{
+    width: 300px;
+    height: 50px;
+    padding: 3px ;
+    margin: 8px ;
+    border: 5px rgb(146, 84, 204) solid;
+    border-radius: 10px;
+    background-color: rgb(146, 84, 204);
+
+    text-align: center;
+    font-size: 50px;
+   
+    box-shadow: 5px 5px 5px 5px black;
+
+    position: relative;
+
+    /* animation-name: rightMovment;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate; */
+   
+
+    animation: rightMovment 5s linear 1s infinite alternate none running;
+
+}
+
+@keyframes rightMovment {
+    from
+    {
+        top:0;
+        left:0;
+
+    }
+    to{
+        top:0;
+        left:1200px;
+    }
+}
+
+
+#box2{
+    width: 300px;
+    height: 50px;
+    padding: 3px ;
+    margin: 8px ;
+    border: 5px rgb(18, 209, 120) solid;
+    border-radius: 10px;
+    background-color: rgb(18, 209, 120);
+
+    text-align: center;
+    font-size: 50px;
+   
+    box-shadow: 5px 5px 5px 5px black;
+
+    position: relative;
+
+    animation: LeftMovment 5s linear 1s infinite alternate none running ;
+
+}
+
+@keyframes LeftMovment {
+    from
+    {
+        top:500px;
+        left:1200PX;
+
+    }
+    to{
+        top:500px;
+        left:0;
+    }
+}
+
+#circle
+{
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 50px;
+    margin: 10px ;
+
+    border: 5px rgb(255, 0, 0)olid;
+    background-color: rgb(255, 0, 0);
+    /* box-shadow: 5px 5px 5px 5px black; */
+
+    position: relative;
+
+    top:20%;
+    left: 45%;
+    animation: circleMovment 10 linear 0s infinite alternate none running ;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+}
+
+@keyframes circleMovment {
+    0%
+    {
+        top:1%;
+        left: 5%;
+    }
+
+    30%
+    {
+        top:5%;
+        left: 70%;    
+    }
+
+    60%
+    {
+        top:70%;
+        left: 10%;
+    }
+
+    100%
+    {
+        top:75%;
+        left: 90%;
+    }
+
+}
